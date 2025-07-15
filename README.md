@@ -32,7 +32,11 @@ It allows users to shorten long URLs, optionally specify expiration, provide cus
 
 ## 📸 Screenshots
 
-![alt text](<Screenshot 2025-07-15 122808.png>) ![alt text](<Screenshot 2025-07-15 122824.png>)
+### Shortener Page
+![Shortener](C:\Users\sr320\Desktop\urlproject\2219559\project\src\img\Screenshot 2025-07-15 122808.png)
+
+### Stats Page
+![Stats](C:\Users\sr320\Desktop\urlproject\2219559\project\src\img\Screenshot 2025-07-15 122824.png)
 
 example
 input url: "https://www.linkedin.com/in/santosh-singh-861536258/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
