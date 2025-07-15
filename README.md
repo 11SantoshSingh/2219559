@@ -1,12 +1,51 @@
-# React + Vite
+# 🔗 URL Shortener Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a frontend-only **URL Shortener application** built using **React (Vite)** and **Material UI**, developed as part of the AffordMed Campus Evaluation.
 
-Currently, two official plugins are available:
+It allows users to shorten long URLs, optionally specify expiration, provide custom shortcodes, and view analytics — all within the browser using client-side logic.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Shorten up to **5 URLs** at once
+- Set optional **expiry time** (default: 30 minutes)
+- Use **custom shortcodes** or auto-generate them
+- Client-side **redirection** of short URLs
+- Track:
+  - Total number of clicks
+  - Click timestamps
+  - Click sources (referrer)
+  - Approximate geo-location
+- Built with **React (Vite)** and **Material UI**
+- Uses **custom Logging Middleware** — no `console.log` used
+
+---
+
+## ⚙️ Tech Stack
+
+- React (Vite)
+- JavaScript
+- Material UI
+
+---
+
+## 📸 Screenshots
+
+![alt text](<Screenshot 2025-07-15 122808.png>) ![alt text](<Screenshot 2025-07-15 122824.png>)
+
+example
+input url: "https://www.linkedin.com/in/santosh-singh-861536258/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+
+output url: "http://localhost:5173/s/santosh"
+
+
+## 🛠️ Setup Instructions
+
+Clone the repo and run locally:
+
+```bash
+git clone https://github.com/11SantoshSingh/2219559.git
+cd 2219559
+npm install
+npm run dev
